@@ -213,7 +213,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 h1{
 	font-family:"Manrope";
-	font-weight:700;
+	font-weight:800;
 	font-size:96px;
 	color:#373851!important;
 	position:relative;
@@ -225,7 +225,7 @@ h1{
 .h1-blue{
 	color:#575EFB!important;
 	font-family:"Manrope";
-	font-weight:700;
+	font-weight:800;
 	text-decoration:none;
 }
 h5{
@@ -244,9 +244,16 @@ h5{
 }
 a{
 	font-family:"Manrope";
-	font-weight:normal;
+	font-weight:600;
 	text-decoration:none;
 	padding-left:24px;
+}
+a:hover{
+	color:#575EFB!important;
+}
+.h1-style{
+	font-family:"Manrope";
+	font-weight:800;
 }
 
 /* = Colour
