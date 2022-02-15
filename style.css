@@ -119,6 +119,10 @@ a:hover{text-decoration: none; cursor:pointer;}
 .mg-clear{
 	margin:0;
 }
+.mg-sm{
+	margin-top:10px;
+	margin-bottom:5px;
+}
 .mg-md{
 	margin-top:10px;
 	margin-bottom:20px;
@@ -146,6 +150,11 @@ button{
 	text-align:center;
 }
 
+/* = Icons
+-------------------------------------------------------------- */
+.icon-md{
+	font-size:30px!important;
+}
 
 
 
@@ -213,7 +222,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 h1{
 	font-family:"Epilogue";
 	font-weight:900;
-	font-size:88px;
+	font-size:80px;
 	line-height:88px;
 	color:#373851!important;
 	position:relative;
@@ -228,6 +237,9 @@ h1{
 }
 h5{
 	font-family:"Epilogue";
+}
+.team-card{
+	min-height:350px;
 }
 
 /* = Colour
