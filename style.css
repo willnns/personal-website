@@ -141,14 +141,6 @@ button{
 	outline: none!important;
 }
 
-.a-block{
-	width:100%;
-	text-align:left;
-	display: inline-block;
-}
-.text-center .a-block{
-	text-align:center;
-}
 
 /* = Icons
 -------------------------------------------------------------- */
@@ -220,26 +212,41 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	max-width:1320px;
 }
 h1{
-	font-family:"Epilogue";
-	font-weight:900;
-	font-size:80px;
-	line-height:88px;
+	font-family:"Manrope";
+	font-weight:700;
+	font-size:96px;
 	color:#373851!important;
 	position:relative;
 	letter-spacing:-1px;
 	padding-top:120px;
 	padding-bottom:120px;
+	line-height:104px;
 }
 .h1-blue{
 	color:#575EFB!important;
-	font-family:"Epilogue";
-	font-weight:900;
+	font-family:"Manrope";
+	font-weight:700;
+	text-decoration:none;
 }
 h5{
-	font-family:"Epilogue";
+	font-family:"Manrope";
+	font-weight:600;
+	color:#373851!important;
 }
 .team-card{
 	min-height:350px;
+}
+.h5-blue{
+	text-decoration:none;
+	color:#575EFB!important;
+	font-family:"Manrope";
+	font-weight:700;
+}
+a{
+	font-family:"Manrope";
+	font-weight:normal;
+	text-decoration:none;
+	padding-left:24px;
 }
 
 /* = Colour
