@@ -1,6 +1,6 @@
 /*-----------------------------------------------------------------------------------
 	William Nunes
-	About: A shiny new Blocs website.
+	About: William Portfolio
 	Author: William Nunes
 	Version: 1.0
 	Built with Blocs
@@ -246,10 +246,10 @@ a{
 	font-family:"Manrope";
 	font-weight:600;
 	text-decoration:none;
-	padding-left:24px;
 }
 a:hover{
 	color:#575EFB!important;
+	text-decoration:underline!important;
 }
 .h1-style{
 	font-family:"Manrope";
@@ -257,6 +257,15 @@ a:hover{
 }
 .logos{
 	margin-right:56px;
+}
+.logos:hover{
+	filter:contrast(5%);
+}
+.resume{
+	margin-left:24px;
+}
+.resume:hover{
+	text-decoration:none;
 }
 
 /* = Colour
