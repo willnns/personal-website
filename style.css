@@ -51,6 +51,9 @@ a:hover{text-decoration: none; cursor:pointer;}
 .bloc-lg{
 	padding:100px 20px;
 }
+.bloc-sm{
+	padding:20px;
+}
 
 
 /* Light theme */
@@ -126,6 +129,18 @@ a:hover{text-decoration: none; cursor:pointer;}
 .mg-md{
 	margin-top:10px;
 	margin-bottom:20px;
+}
+img.mg-sm,img.mg-md,img.mg-lg{
+	margin-top: 0;
+}
+img.mg-sm{
+	margin-bottom:10px;
+}
+img.mg-md{
+	margin-bottom:30px;
+}
+img.mg-lg{
+	margin-bottom:50px;
 }
 
 /* = Buttons
@@ -251,10 +266,6 @@ a:hover{
 	color:#575EFB!important;
 	text-decoration:underline!important;
 }
-.h1-style{
-	font-family:"Manrope";
-	font-weight:800;
-}
 .logos{
 	margin-right:56px;
 }
@@ -353,3 +364,37 @@ a:hover{
 	   height: 320px;
     }
 }
+@media (max-width: 575px){
+	h1{
+		line-height:40px;
+		padding-top:0px;
+		padding-bottom:0px;
+		font-size:32px;
+	}
+	.resume{
+		margin:0px 0px 0px 0px;
+		padding:0px 24px 0px 0px;
+	}
+	.link-space{
+		padding-top:16px;
+	}
+	.img-style{
+		height:18px;
+	}
+	.img-masterb-style{
+		height:18px;
+	}
+	.img-neur-style{
+		height:30px;
+	}
+	.img-vilarou-style{
+		height:28px;
+	}
+	
+	/* Mobile Text Margin Offsets */
+	.mg-clear-xs{
+		margin:0;
+	}
+	
+}
+
