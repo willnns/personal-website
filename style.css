@@ -390,6 +390,10 @@ a:hover{
 	.img-vilarou-style{
 		height:28px;
 	}
+	.logos{
+		float:left;
+		display:block;
+	}
 	
 	/* Mobile Text Margin Offsets */
 	.mg-clear-xs{
