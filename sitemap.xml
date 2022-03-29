@@ -2,29 +2,9 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
 <url>
 	<loc>williamnunes.com.br</loc>
-	<lastmod>2022-02-16</lastmod>
+	<lastmod>2022-03-29</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>1.0</priority>
-	<image:image>
-	<image:loc>williamnunes.com.br/img/solutionair.svg</image:loc>
-	<image:title>solutionair</image:title>
-	</image:image>
-	<image:image>
-	<image:loc>williamnunes.com.br/img/masterboi.svg</image:loc>
-	<image:title>masterboi</image:title>
-	</image:image>
-	<image:image>
-	<image:loc>williamnunes.com.br/img/wassabi.svg</image:loc>
-	<image:title>masterboi</image:title>
-	</image:image>
-	<image:image>
-	<image:loc>williamnunes.com.br/img/neuron.svg</image:loc>
-	<image:title>masterboi</image:title>
-	</image:image>
-	<image:image>
-	<image:loc>williamnunes.com.br/img/vilarouca.svg</image:loc>
-	<image:title>masterboi</image:title>
-	</image:image>
 	<image:image>
 	<image:loc>williamnunes.com.br/img/</image:loc>
 	<image:title>Twitter Social Card Image</image:title>
@@ -36,7 +16,7 @@
 </url>
 <url>
 	<loc>williamnunes.com.br/interna-maida.html</loc>
-	<lastmod>2022-02-16</lastmod>
+	<lastmod>2022-03-29</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>

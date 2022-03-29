@@ -130,18 +130,6 @@ a:hover{text-decoration: none; cursor:pointer;}
 	margin-top:10px;
 	margin-bottom:20px;
 }
-img.mg-sm,img.mg-md,img.mg-lg{
-	margin-top: 0;
-}
-img.mg-sm{
-	margin-bottom:10px;
-}
-img.mg-md{
-	margin-bottom:30px;
-}
-img.mg-lg{
-	margin-bottom:50px;
-}
 
 /* = Buttons
 -------------------------------------------------------------- */
@@ -156,6 +144,14 @@ button{
 	outline: none!important;
 }
 
+.a-block{
+	width:100%;
+	text-align:left;
+	display: inline-block;
+}
+.text-center .a-block{
+	text-align:center;
+}
 
 /* = Icons
 -------------------------------------------------------------- */
@@ -277,6 +273,12 @@ a:hover{
 }
 .resume:hover{
 	text-decoration:none;
+}
+h3{
+	font-family:"Manrope";
+	font-weight:700;
+	color:#363850!important;
+	font-size:32px;
 }
 
 /* = Colour
