@@ -162,6 +162,20 @@ button{
 
 
 
+/* = Cards
+-------------------------------------------------------------- */
+.card-sq, .card-sq .card-header, .card-sq .card-footer{
+	border-radius:0;
+}
+.card-rd{
+	border-radius:30px;
+}
+.card-rd .card-header{
+	border-radius:29px 29px 0 0;
+}
+.card-rd .card-footer{
+	border-radius:0 0 29px 29px;
+}
 /* = Masonary
 -------------------------------------------------------------- */
 .card-columns .card {
@@ -211,6 +225,11 @@ button{
 	stroke-width: 2px;
 	fill-rule: evenodd;
 	stroke-linecap:round;
+}
+
+/* Hide Object */
+.object-hidden{
+	display:none;
 }
 
 /* = Custom Styling
