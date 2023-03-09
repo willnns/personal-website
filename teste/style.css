@@ -300,12 +300,6 @@ h1{
 	line-height:64px;
 	letter-spacing:0.02em;
 }
-.h1-blue{
-	color:#575EFB!important;
-	font-family:"Manrope";
-	font-weight:800;
-	text-decoration:none;
-}
 h5{
 	font-family:"Manrope";
 	font-weight:600;
@@ -330,12 +324,6 @@ a{
 a:hover{
 	color:#575EFB!important;
 	text-decoration:underline!important;
-}
-.logos{
-	margin-right:56px;
-}
-.logos:hover{
-	filter:contrast(5%);
 }
 .resume{
 	margin-left:24px;
@@ -378,6 +366,17 @@ p{
 	margin-top:124px;
 	margin-bottom:96px;
 }
+.btn{
+	background-color:var(--swatch-var-Unnamed-Swatch);
+	font-family:"Manrope";
+	font-size:14px;
+	line-height:16px;
+	letter-spacing:0.02em;
+	font-weight:600;
+	margin:0px 0px 0px 0px;
+	padding:16px 24px 16px 24px;
+	border-radius:8px 8px 8px 8px;
+}
 
 /* = Colour
 -------------------------------------------------------------- */
@@ -385,9 +384,22 @@ p{
 /* Swatch Variables */
 :root{
 	
+	--swatch-var-Unnamed-Swatch:rgba(87,94,251,1.00);
+	
 }
 
 
+
+/* Button colour styles */
+
+.btn-c-6120{
+	background:var(--swatch-var-Unnamed-Swatch);
+	color:#FFFFFF!important;
+}
+.btn-c-6120:hover{
+	background:#242BC8!important;
+	color:#FFFFFF!important;
+}
 
 
 
@@ -487,22 +499,8 @@ p{
 	.img-style{
 		height:18px;
 	}
-	.img-masterb-style{
-		height:18px;
-	}
-	.img-neur-style{
-		height:30px;
-	}
-	.img-vilarou-style{
-		height:28px;
-	}
-	.logos{
-		display:block;
-	}
 	h3{
 		font-size:18px;
-	}
-	.projects-title{
 	}
 	
 }
