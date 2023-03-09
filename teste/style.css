@@ -293,11 +293,12 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 h1{
 	font-family:"Manrope";
-	font-weight:400;
-	font-size:40px;
+	font-weight:300;
+	font-size:48px;
 	color:#373851!important;
 	position:relative;
-	line-height:56px;
+	line-height:64px;
+	letter-spacing:0.02em;
 }
 .h1-blue{
 	color:#575EFB!important;
@@ -308,7 +309,9 @@ h1{
 h5{
 	font-family:"Manrope";
 	font-weight:600;
-	color:#373851!important;
+	color:#575EFB!important;
+	font-size:24px;
+	line-height:32px;
 }
 .team-card{
 	min-height:350px;
@@ -370,6 +373,10 @@ p{
 }
 .img-bloc-6-style{
 	height:400px;
+}
+.header{
+	margin-top:124px;
+	margin-bottom:96px;
 }
 
 /* = Colour
@@ -496,11 +503,6 @@ p{
 		font-size:18px;
 	}
 	.projects-title{
-	}
-	
-	/* Mobile Text Margin Offsets */
-	.mg-clear-xs{
-		margin:0;
 	}
 	
 }
