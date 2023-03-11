@@ -356,8 +356,10 @@ p{
 	font-family:"Manrope";
 	font-size:18px;
 	line-height:32px;
-	color:#373851!important;
+	color:#717280!important;
 	letter-spacing:0.02em;
+	background-color:transparent;
+	font-weight:400;
 }
 .img-bloc-6-style{
 	height:400px;
