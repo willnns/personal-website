@@ -310,14 +310,16 @@ a{
 	text-decoration:none;
 	font-size:16px;
 	color:var(--swatch-var-6355)!important;
+	border-width:0px 0px 2px 0px;
+	border-color:var(--swatch-var-4682)!important;
+	border-style:solid;
 }
 a:hover{
 	color:var(--swatch-var-6355)!important;
 	text-decoration:none;
-	border-width:0px 0px 2px 0px;
-	padding-bottom:2px;
+	border-color:var(--swatch-var-6355)!important;
 	border-style:solid;
-	border-color:#000000!important;
+	border-width:0px 0px 2px 0px;
 }
 .resume{
 	margin-left:24px;
@@ -384,6 +386,14 @@ p{
 	padding-bottom:20px;
 	border-width:0px 0px 0px 0px;
 }
+.img-bloc-4-style{
+	height:240px;
+	width:600px;
+}
+.link-space{
+	margin:0px 0px 0px 0px;
+	padding:0px 0px 0px 0px;
+}
 
 /* = Colour
 -------------------------------------------------------------- */
@@ -395,7 +405,7 @@ p{
 	
 	--swatch-var-6355:rgba(25,27,71,1.00);
 	
-	--swatch-var-4682:#FFFFFF;
+	--swatch-var-4682:rgba(255,255,255,1.00);
 	
 }
 
