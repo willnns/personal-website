@@ -281,7 +281,7 @@ h1{
 	font-family:"Manrope";
 	font-weight:500;
 	font-size:48px;
-	color:#373851!important;
+	color:#262738!important;
 	position:relative;
 	line-height:64px;
 	text-align:left;
@@ -304,8 +304,9 @@ h5{
 }
 a{
 	font-family:"Manrope";
-	font-weight:600;
+	font-weight:500;
 	text-decoration:none;
+	font-size:16px;
 }
 a:hover{
 	color:#575EFB!important;
@@ -375,6 +376,7 @@ p{
 	padding-top:20px;
 	padding-bottom:20px;
 	background-color:#F7F8FA;
+	border-width:0px 0px 0px 0px;
 }
 
 /* = Colour
