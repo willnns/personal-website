@@ -57,26 +57,6 @@ a:hover{text-decoration: none; cursor:pointer;}
 	padding:20px;
 }
 
-/* = Full Width Blocs 
--------------------------------------------------------------- */
-
-.full-width-bloc{
-	padding-left:0;
-	padding-right:0;
-}
-.full-width-bloc .row{
-	margin-left:0;
-	margin-right:0;
-}
-.full-width-bloc .container{
-	width:100%;
-	max-width:100%!important;
-}
-.full-width-bloc .carousel img{
-	width:100%;
-	height:auto;
-}
-
 
 /* Light theme */
 
@@ -104,6 +84,12 @@ a:hover{text-decoration: none; cursor:pointer;}
 .d-bloc .card .btn-wire,.d-bloc .card .btn-wire:hover,.l-bloc .btn-wire,.l-bloc .btn-wire:hover{
 	color:rgba(0,0,0,.7);
 	border-color:rgba(0,0,0,.3);
+}
+/* Dividers */
+
+.b-divider{
+	border-top:1px solid rgba(0,0,0,.1);
+	border-bottom:1px solid rgba(0,0,0,.1);
 }
 
 
@@ -293,12 +279,12 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 h1{
 	font-family:"Manrope";
-	font-weight:300;
+	font-weight:500;
 	font-size:48px;
 	color:#373851!important;
 	position:relative;
 	line-height:64px;
-	letter-spacing:0.02em;
+	text-align:left;
 }
 h5{
 	font-family:"Manrope";
@@ -365,11 +351,13 @@ p{
 	height:400px;
 }
 .header{
-	margin-top:120px;
-	margin-bottom:96px;
+	margin-bottom:0px;
+	background-color:#F7F8FA;
+	padding-top:120px;
+	padding-bottom:120px;
 }
 .btn{
-	background-color:var(--swatch-var-Unnamed-Swatch);
+	background-color:var(--swatch-var-6120);
 	font-family:"Manrope";
 	font-size:14px;
 	line-height:16px;
@@ -380,8 +368,13 @@ p{
 	border-radius:8px 8px 8px 8px;
 }
 .btn:hover{
-	background-color:var(--swatch-var-Unnamed-Swatch);
+	background-color:var(--swatch-var-6120);
 	text-decoration:none;
+}
+.topo{
+	padding-top:20px;
+	padding-bottom:20px;
+	background-color:#F7F8FA;
 }
 
 /* = Colour
@@ -390,7 +383,7 @@ p{
 /* Swatch Variables */
 :root{
 	
-	--swatch-var-Unnamed-Swatch:rgba(87,94,251,1.00);
+	--swatch-var-6120:rgba(87,94,251,1.00);
 	
 }
 
@@ -399,7 +392,7 @@ p{
 /* Button colour styles */
 
 .btn-c-6120{
-	background:var(--swatch-var-Unnamed-Swatch);
+	background:var(--swatch-var-6120);
 	color:#FFFFFF!important;
 }
 .btn-c-6120:hover{
