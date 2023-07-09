@@ -279,18 +279,19 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 h1{
 	font-family:"Manrope";
-	font-weight:500;
-	font-size:48px;
-	color:#262738!important;
+	font-weight:600;
+	font-size:56px;
+	color:var(--swatch-var-6355)!important;
 	position:relative;
 	line-height:64px;
 	text-align:left;
+	letter-spacing:-1px;
 }
 h5{
 	font-family:"Manrope";
-	font-weight:600;
-	color:#575EFB!important;
-	font-size:24px;
+	font-weight:normal;
+	color:#C2C2CD!important;
+	font-size:20px;
 	line-height:32px;
 }
 .team-card{
@@ -298,15 +299,17 @@ h5{
 }
 .h5-blue{
 	text-decoration:none;
-	color:#575EFB!important;
+	color:var(--swatch-var-6355)!important;
 	font-family:"Manrope";
-	font-weight:700;
+	font-weight:bold;
+	font-size:20px;
 }
 a{
 	font-family:"Manrope";
 	font-weight:500;
 	text-decoration:none;
 	font-size:16px;
+	color:var(--swatch-var-6355)!important;
 }
 a:hover{
 	color:#575EFB!important;
@@ -353,9 +356,9 @@ p{
 }
 .header{
 	margin-bottom:0px;
-	background-color:#F7F8FA;
-	padding-top:120px;
-	padding-bottom:120px;
+	padding-top:100px;
+	padding-bottom:100px;
+	padding-left:0px;
 }
 .btn{
 	background-color:var(--swatch-var-6120);
@@ -375,7 +378,6 @@ p{
 .topo{
 	padding-top:20px;
 	padding-bottom:20px;
-	background-color:#F7F8FA;
 	border-width:0px 0px 0px 0px;
 }
 
@@ -387,9 +389,18 @@ p{
 	
 	--swatch-var-6120:rgba(87,94,251,1.00);
 	
+	--swatch-var-6355:rgba(25,27,71,1.00);
+	
+	--swatch-var-4682:#FFFFFF;
+	
 }
 
 
+/* Background colour styles */
+
+.bgc-4682{
+	background-color:var(--swatch-var-4682);
+}
 
 /* Button colour styles */
 
