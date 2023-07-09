@@ -312,8 +312,12 @@ a{
 	color:var(--swatch-var-6355)!important;
 }
 a:hover{
-	color:#575EFB!important;
+	color:var(--swatch-var-6355)!important;
 	text-decoration:none;
+	border-width:0px 0px 2px 0px;
+	padding-bottom:2px;
+	border-style:solid;
+	border-color:#000000!important;
 }
 .resume{
 	margin-left:24px;
